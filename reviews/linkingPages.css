@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: brown;
+}
+
+.navigation{
+    background-color: grey;
+}
+.box1{
+    width: 30%;
+}
+.box2{
+    width: 70%;
+}
+ul{
+display: flex;
+justify-content:center;
+list-style: none;
+display: flex;
+}
+li{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+}
+
