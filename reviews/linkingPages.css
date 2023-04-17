@@ -9,12 +9,15 @@ body{
 
 .navigation{
     background-color: grey;
+    display: flex;
 }
 .box1{
-    width: 30%;
+    width: 10%;
+    background-color: blue;
 }
 .box2{
-    width: 70%;
+    width: 90%;
+    background-color: rgb(129, 74, 74);
 }
 ul{
 display: flex;
