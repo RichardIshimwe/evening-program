@@ -19,6 +19,7 @@ body{
     width: 90%;
     background-color: rgb(129, 74, 74);
 }
+
 ul{
 display: flex;
 justify-content:center;

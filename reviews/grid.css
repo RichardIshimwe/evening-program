@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: goldenrod;
+}
+
+#home{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(234, 217, 217);
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-areas: "navigation navigation navigation navigation navigation navigation navigation navigation"
+                         "welcome welcome welcome welcome welcome image image image"
+                         "welcome welcome welcome welcome welcome image image image"
+                         "paragraph paragraph paragraph paragraph paragraph image image image"
+                         "find find best best best image image image"
+                         "find find best best best image image image"
+                         "find find best best best image image image";
+    grid-template-rows: repeat(7, 1fr);
+}
+.navigation{
+    grid-area: navigation;
+background-color: blueviolet;
+}
+
+.image{
+    grid-area: image;
+    background-color: rgb(105, 91, 118);
+}
+
+.welcome{
+    grid-area: welcome;
+    background-color: rgb(209, 174, 21);
+}
+
+.paragraph{
+    grid-area: paragraph;
+    background-color: rgb(68, 164, 215);
+}
+
+.find{
+    grid-area: find;
+    background-color: rgb(158, 33, 104);
+}
+
+.best{
+    grid-area: best;
+    background-color: rgb(59, 6, 9);
+}
+
