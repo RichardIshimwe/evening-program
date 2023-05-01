@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgb(120, 75, 75);
+}
+.container{
+    color: white;
+    height: 100vh;
+    background-color: rgb(68, 42, 92);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+    grid-template-areas: "navigation navigation navigation navigation"
+                         "language image image icons"
+                         "language image image icons"
+                         "language image image icons"
+                         "language image image icons"
+                         "language image image icons"
+                         "language image image icons"
+                         "language image image icons";
+    grid-template-rows: repeat(8, 1fr);  
+}
+
+#screen{
+    width: 500px;
+    height: 500px;
+}
+
+.navigation{
+    grid-area: navigation;
+    background-color: aqua;
+}
+
+.image{
+    grid-area: image;
+    background-color: bisque;
+}
+
+.icons{
+    grid-area: icons;
+    background-color: blue;
+}
+
+.language{
+    grid-area: languages;
+    background-color: violet;
+}

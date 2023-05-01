@@ -52,6 +52,44 @@ else console.log("unauthorized")
 //    console.log("authentication failed")
 // }
 
+// let us = 8
+// let output =   
+//     (us)=>{ 
+//     if(us >= 0){
+//         if(us>=18){
+//             console.log("you are eligible")
+//             }
+//             else{
+//                 console.log("you are not eligible")
+//             }
+//     }
+//     else{
+//         console.log(`your age does not exist`)
+//     }
+        
+
+//         }
+    
+// output(us);
+
+// let number1 = 18
+// let results = (number1) =>{
+//     return number1;
+// }
+// console.log(results(number1));
+
+let numbers = 5
+let names = [one,two,three,four,five]
+let results = (numbers) =>{
+    if(numbers <= names.length){
+        return numbers[names-1];
+        }
+    else{
+        return ("number not in range");
+    }
+}
+console.log(results(numbers));
+
 
 
 // window.alert("this is an alert");
@@ -124,16 +162,40 @@ let person=8;
 
 
 
-let checkAge=(age)=>{
-    if(age>=18){
-        console.log("allowed to take beer");
-    }
-    else if(age<0){
-        console.log("wrong input");
-    }
-    else if(age<18){
-        console.log("not allowed to take beer");
-    }
+// let checkAge=(age)=>{
+//     if(age>=18){
+//         console.log("allowed to take beer");
+//     }
+//     else if(age<0){
+//         console.log("wrong input");
+//     }
+//     else if(age<18){
+//         console.log("not allowed to take beer");
+//     }
    
-}
-checkAge(-3);
+// }
+// checkAge(-3);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
