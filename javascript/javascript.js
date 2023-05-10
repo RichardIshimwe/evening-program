@@ -78,24 +78,24 @@ else console.log("unauthorized")
 // }
 // console.log(results(number1));
 
-let numbers = 5
-let names = [one,two,three,four,five]
-let results = (numbers) =>{
-    if(numbers <= names.length){
-        return numbers[names-1];
-        }
-    else{
-        return ("number not in range");
-    }
-}
-console.log(results(numbers));
+// let numbers = 5
+// let names = [one,two,three,four,five]
+// let results = (numbers) =>{
+//     if(numbers <= names.length){
+//         return numbers[names-1];
+//         }
+//     else{
+//         return ("number not in range");
+//     }
+// }
+// console.log(results(numbers));
 
 
 
 // window.alert("this is an alert");
-let numArray = ["zero","one", "two", "three"];
+// let numArray = ["zero","one", "two", "three"];
 // fnctions: combination of reusable lines of codes
-let number = 3;
+// let number = 3;
 // number[]
 // if(number <= 10){
 //     numArray.push("four");
@@ -114,31 +114,14 @@ let number = 3;
 // edith();
 
 
-let senior=()=>{
-    console.log("allowed to have beer");
-}
-let junior=()=>{
-        console.log("not allowed to have beer");
-    }
-let person=8;
+// let senior=()=>{
+//     console.log("allowed to have beer");
+// }
+// let junior=()=>{
+//         console.log("not allowed to have beer");
+//     }
+// let person=8;
 // parameter
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 // let checkAge = (name) =>{
@@ -154,13 +137,6 @@ let person=8;
 // }
 
 // checkAge("yellow");
-
-
-
-
-
-
-
 
 // let checkAge=(age)=>{
 //     if(age>=18){
@@ -178,24 +154,30 @@ let person=8;
 
 
 
+// let arraExample=[1,2,3,4,5,6,5,3];
+// function displayArray(number){
+// return number;
+
+// }
+// console.log(displayArray(arraExample))
+
+let objectArray=[{ "firstName":"axcel","age":20},{"firstName":"kanyana","age":17},{"firstName":"edith","age":12},{"firstName":"grace","age":45}]
+
+// let filteredStudent=objectArray.filter ((item)=>item===17 )
+
+    console.log("the filtered age is:",objectArray);
+    let mapedArray = objectArray.map((item) => {item});
+    console.log("maped array:", mapedArray);
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// ======================local storage================
+/*
+store:localStorage.setItem("key",value);
+retrieving:localStorage.getItem("key");
+special case: arrays and object
+let array = [{name:kanyana,age:23}];
+localStorage.setItem("myArray", JSON.stringify(array));
+let ourArray = JSON.parse(localStorage.getItem("myArray");
+*/
 
 
